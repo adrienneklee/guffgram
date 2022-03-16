@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,400;1,600&display=swap');
+
+:root{
+  --primary: #b5838d;
+  --secondary: #6d6875;
+  --error: #ff4a4a;
+}
+/* Colors
+#ffcdb2
+#ffb4a2
+#e5989b
+#b5838d
+#6d6875
+*/
+
+
+/* base styles & title */
+body{
+  font-family: "Work Sans";
+  color: var(--secondary);
+}
+.App{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.title h1{
+  color: var(--primary);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.title h2, .title p{
+  text-align: center;
+}
+.title h2{
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
+
+/* upload form styles */
+
+
+/* progress bar styles */
+.progress-bar{
+  height: 5px;
+  background: var(--primary);
+  margin-top: 20px;
+}
+
+
+/* image grid styles */
+.img-grid{
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.img-wrap{
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+  opacity: 0.8;
+}
+
+.img-wrap img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* modal styles */
