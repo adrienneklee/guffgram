@@ -3,9 +3,9 @@ import React from 'react';
 const Title = () => {
   return (
     <div className="title">
-      <h1>McGuffinGram</h1>
-      <h2>Pictures of McGuffin</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h1>GuffGram</h1>
+      <h2>McGuffin's Daily Pics</h2>
+      <p>A lil React + Firebase App featuring the #1 Best Puppo</p>
     </div>
   )
 }
